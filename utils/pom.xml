@@ -41,6 +41,15 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+		<!-- TP0 TDD  -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- Acceptance tests in Java (Step II.3) -->
         <dependency>
             <groupId>io.cucumber</groupId>
