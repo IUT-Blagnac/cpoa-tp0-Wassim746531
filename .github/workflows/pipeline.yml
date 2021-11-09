@@ -13,7 +13,7 @@ jobs:
           java-version: '16'
           distribution: 'adopt'
       - name: Change Directory
-        run: cd utils
+        run: pwd
       - name: Build with Maven
         run: mvn --batch-mode clean package -DskipTests
       - name: Store JAR file
